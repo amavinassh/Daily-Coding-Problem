@@ -4,7 +4,8 @@
 
 // Bonus: Can you do this in one pass?
 
-```func twoSum(_ nums:[Int], _ k: Int ) -> Bool {
+```
+func twoSum(_ nums:[Int], _ k: Int ) -> Bool {
 	let map = [Int: Int]()
 	for i in 0..<nums.count {
 		let diff = k - nums[i]
@@ -16,4 +17,5 @@
 		map[diff] = i
 	}
 	return false
-}```
+}
+```
